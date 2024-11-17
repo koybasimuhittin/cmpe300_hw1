@@ -113,7 +113,7 @@ To ensure that the random input generation is consistent across multiple runs, t
 **Setting the Seed:**
 
 ```bash
-python benchmark.py Average 100 30 456
+python <student_number>.py Average 100 30 456
 ```
 
 In the above command, `456` is the seed value. Using the same seed will generate identical random input arrays, allowing for reproducible benchmarking results.
